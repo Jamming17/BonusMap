@@ -1,0 +1,80 @@
+{
+    "bonus-locations": [
+        {
+            "id": "FO-STR-1",
+            "name": "Bónus, við Marknagil",
+            "country": "Faroe Islands",
+            "city": "Tórshavn, Streymoy",
+            "postcode": "100",
+            "latitude": 62.0054,
+            "longitude": -6.8017
+        },
+        {
+            "id": "FO-STR-2",
+            "name": "Bónus, Miðlon",
+            "country": "Faroe Islands",
+            "city": "Tórshavn, Streymoy",
+            "postcode": "100",
+            "latitude": 62.0225,
+            "longitude": -6.7649
+        },
+        {
+            "id": "FO-STR-3",
+            "name": "Bónus, Karlamagnusarbreyt",
+            "country": "Faroe Islands",
+            "city": "Hoyví, Streymoy",
+            "postcode": "108",
+            "latitude": 62.0319,
+            "longitude": -6.7740
+        },
+
+        {
+            "id": "FO-EYS-1",
+            "name": "Bónus, Runavík",
+            "country": "Faroe Islands",
+            "city": "Runavík, Eysturoy",
+            "postcode": "620",
+            "latitude": 62.1123,
+            "longitude": -6.7223
+        },
+        {
+            "id": "FO-EYS-2",
+            "name": "Bónus, Norðskála",
+            "country": "Faroe Islands",
+            "city": "Norðskáli, Eysturoy",
+            "postcode": "460",
+            "latitude": 62.2102,
+            "longitude": -7.0008
+        },
+
+        {
+            "id": "FO-BOR-1",
+            "name": "Bónus, Klaksvík",
+            "country": "Faroe Islands",
+            "city": "Klaksvík, Borðoy",
+            "postcode": "700",
+            "latitude": 62.2227,
+            "longitude": -6.5745
+        },
+
+        {
+            "id": "FO-VAR-1",
+            "name": "Bónus, Miðvágur",
+            "country": "Faroe Islands",
+            "city": "Miðvágur, Vágar",
+            "postcode": "370",
+            "latitude": 62.0482,
+            "longitude": -7.2022
+        },
+        
+        {
+            "id": "FO-SUÐ-1",
+            "name": "Bónus, Tvøroyri",
+            "country": "Faroe Islands",
+            "city": "Tvøroyri",
+            "postcode": "800",
+            "latitude": 61.5550,
+            "longitude": -6.8100
+        }
+    ]
+}

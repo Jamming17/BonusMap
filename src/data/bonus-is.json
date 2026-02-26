@@ -1,0 +1,312 @@
+{
+    "bonus-locations": [
+        {
+            "id": "IS-KOP-1",
+            "name": "Bónus, Smáratorg",
+            "country": "Iceland",
+            "city": "Kópavogur",
+            "postcode": "201",
+            "latitude": 64.1035,
+            "longitude": -21.8795
+        },
+        {
+            "id": "IS-KOP-2",
+            "name": "Bónus, Nýbýlavegur",
+            "country": "Iceland",
+            "city": "Kópavogur",
+            "postcode": "200",
+            "latitude": 64.1143,
+            "longitude": -21.8983
+        },
+        {
+            "id": "IS-KOP-3",
+            "name": "Bónus, Ögurhvarf",
+            "country": "Iceland",
+            "city": "Kópavogur",
+            "postcode": "203",
+            "latitude": 64.0964,
+            "longitude": -21.8027
+        },
+
+        {
+            "id": "IS-GAR-1",
+            "name": "Bónus, Garðatorg",
+            "country": "Iceland",
+            "city": "Garðabær",
+            "postcode": "210",
+            "latitude": 64.0891,
+            "longitude": -21.9202
+        },
+        {
+            "id": "IS-GAR-2",
+            "name": "Bónus, Kauptún",
+            "country": "Iceland",
+            "city": "Garðabær",
+            "postcode": "210",
+            "latitude": 64.0729,
+            "longitude": -21.9121
+        },
+        {
+            "id": "IS-GAR-3",
+            "name": "Bónus, Miðhraun",
+            "country": "Iceland",
+            "city": "Garðabær",
+            "postcode": "210",
+            "latitude": 64.0765,
+            "longitude": -21.9268
+        },
+
+        {
+            "id": "IS-HAF-1",
+            "name": "Bónus, Helluhraun",
+            "country": "Iceland",
+            "city": "Hafnarfjörður",
+            "postcode": "220",
+            "latitude": 64.0776,
+            "longitude": -21.9419
+        },
+        {
+            "id": "IS-HAF-2",
+            "name": "Bónus, Tjarnarvellir",
+            "country": "Iceland",
+            "city": "Hafnarfjörður",
+            "postcode": "221",
+            "latitude": 64.0524,
+            "longitude": -21.9794
+        },
+
+        {
+            "id": "IS-MOS-1",
+            "name": "Bónus, Bjarkarholt",
+            "country": "Iceland",
+            "city": "Mosfellsbær",
+            "postcode": "270",
+            "latitude": 64.1657,
+            "longitude": -21.6993
+        },
+
+        {
+            "id": "IS-REY-1",
+            "name": "Bónus, Fiskislóð",
+            "country": "Iceland",
+            "city": "Reykjavík",
+            "postcode": "101",
+            "latitude": 64.1536,
+            "longitude": -21.9516
+        },
+        {
+            "id": "IS-REY-2",
+            "name": "Bónus, Kjörgarður / Laugavegur",
+            "country": "Iceland",
+            "city": "Reykjavík",
+            "postcode": "103",
+            "latitude": 64.1446,
+            "longitude": -21.9226
+        },
+        {
+            "id": "IS-REY-3",
+            "name": "Bónus, Skipholt",
+            "country": "Iceland",
+            "city": "Reykjavík",
+            "postcode": "105",
+            "latitude": 64.1415,
+            "longitude": -21.9075
+        },
+        {
+            "id": "IS-REY-4",
+            "name": "Bónus, Holtagarðar",
+            "country": "Iceland",
+            "city": "Reykjavík",
+            "postcode": "104",
+            "latitude": 64.1426,
+            "longitude": -21.8478
+        },
+        {
+            "id": "IS-REY-5",
+            "name": "Bónus, Skútuvogur",
+            "country": "Iceland",
+            "city": "Reykjavík",
+            "postcode": "104",
+            "latitude": 64.1351,
+            "longitude": -21.8462
+        },
+        {
+            "id": "IS-REY-6",
+            "name": "Bónus, Skeifan 11a",
+            "country": "Iceland",
+            "city": "Reykjavík",
+            "postcode": "108",
+            "latitude": 64.1313,
+            "longitude": -21.8695
+        },
+        {
+            "id": "IS-REY-7",
+            "name": "Bónus, Kringlan",
+            "country": "Iceland",
+            "city": "Reykjavík",
+            "postcode": "103",
+            "latitude": 64.1295,
+            "longitude": -21.8964
+        },
+        {
+            "id": "IS-REY-8",
+            "name": "Bónus, Hraunbær",
+            "country": "Iceland",
+            "city": "Reykjavík",
+            "postcode": "110",
+            "latitude": 64.1181,
+            "longitude": -21.7958
+        },
+        {
+            "id": "IS-REY-9",
+            "name": "Bónus, Lóuhólar",
+            "country": "Iceland",
+            "city": "Reykjavík",
+            "postcode": "111",
+            "latitude": 64.1090,
+            "longitude": -21.8163
+        },
+        {
+            "id": "IS-REY-10",
+            "name": "Bónus, Norðlingabraut",
+            "country": "Iceland",
+            "city": "Reykjavík",
+            "postcode": "110",
+            "latitude": 64.1014,
+            "longitude": -21.7769
+        },
+        {
+            "id": "IS-REY-11",
+            "name": "Bónus, Spöngin",
+            "country": "Iceland",
+            "city": "Reykjavík",
+            "postcode": "112",
+            "latitude": 64.1505,
+            "longitude": -21.7899
+        },
+
+
+
+        {
+            "id": "IS-SW-1",
+            "name": "Bónus, Fitjar",
+            "country": "Iceland",
+            "city": "Njarðvík",
+            "postcode": "260",
+            "latitude": 63.9726,
+            "longitude": -22.5435
+        },
+        {
+            "id": "IS-SW-2",
+            "name": "Bónus, Túngata",
+            "country": "Iceland",
+            "city": "Keflavík",
+            "postcode": "230",
+            "latitude": 64.0033,
+            "longitude": -22.5566
+        },
+        {
+            "id": "IS-SW-3",
+            "name": "Bónus, Sunnumörk",
+            "country": "Iceland",
+            "city": "Hveragerði",
+            "postcode": "810",
+            "latitude": 63.9955,
+            "longitude": -21.1900
+        },
+        {
+            "id": "IS-SW-4",
+            "name": "Bónus, Larsenstræti",
+            "country": "Iceland",
+            "city": "Selfoss",
+            "postcode": "800",
+            "latitude": 63.9383,
+            "longitude": -20.9735
+        },
+        {
+            "id": "IS-VES-1",
+            "name": "Bónus, Vestmannaeyjar",
+            "country": "Iceland",
+            "city": "Vestmannaeyabær",
+            "postcode": "900",
+            "latitude": 63.4419,
+            "longitude": -20.2716
+        },
+
+
+        {
+            "id": "IS-NW-1",
+            "name": "Bónus, Smiðjuvellir",
+            "country": "Iceland",
+            "city": "Akranes",
+            "postcode": "300",
+            "latitude": 64.3272,
+            "longitude": -22.0556
+        },
+        {
+            "id": "IS-NW-2",
+            "name": "Bónus, Digranesgata",
+            "country": "Iceland",
+            "city": "Borgarnes",
+            "postcode": "310",
+            "latitude": 64.5410,
+            "longitude": -21.9094
+        },
+        {
+            "id": "IS-NW-3",
+            "name": "Bónus, Borgabraut",
+            "country": "Iceland",
+            "city": "Stykkishólmur",
+            "postcode": "340",
+            "latitude": 65.0738,
+            "longitude": -22.7290
+        },
+        {
+            "id": "IS-NW-4",
+            "name": "Bónus, Skeiði",
+            "country": "Iceland",
+            "city": "Ísafjördur",
+            "postcode": "400",
+            "latitude": 66.0604,
+            "longitude": -23.1744
+        },
+
+        {
+            "id": "IS-AKU-1",
+            "name": "Bónus, Norðutorg",
+            "country": "Iceland",
+            "city": "Akureyri",
+            "postcode": "603",
+            "latitude": 65.6983,
+            "longitude": -18.1395
+        },
+        {
+            "id": "IS-AKU-2",
+            "name": "Bónus, Langholt",
+            "country": "Iceland",
+            "city": "Akureyri",
+            "postcode": "603",
+            "latitude": 65.6921,
+            "longitude": -18.1089
+        },
+        {
+            "id": "IS-AKU-3",
+            "name": "Bónus, Naustahverfi",
+            "country": "Iceland",
+            "city": "Akureyri",
+            "postcode": "600",
+            "latitude": 65.6694,
+            "longitude": -18.1103
+        },
+
+        {
+            "id": "IS-E-1",
+            "name": "Bónus, Miðvangur",
+            "country": "Iceland",
+            "city": "Egilsstaðir",
+            "postcode": "700",
+            "latitude": 65.2635,
+            "longitude": -14.4050
+        }
+    ]
+}
