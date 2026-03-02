@@ -1,0 +1,12 @@
+.map-container {
+
+    min-height: 0;
+    flex: 1;
+    max-width: 1600px;
+    margin: 10px auto;
+
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+
+}

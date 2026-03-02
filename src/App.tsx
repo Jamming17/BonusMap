@@ -11,15 +11,19 @@ import "leaflet/dist/leaflet.css";
 function App() {
 
   return (
-    <>
+    <div className="app-container">
         <Header />
-        <Routes>
-            <Route path="/"          element={<HomePage      />} />
-            <Route path="/map"       element={<MapPage       />} />
-            <Route path="/adventure" element={<AdventurePage />} />
-        </Routes>
+
+        <div className="page-container">
+            <Routes>
+                <Route path="/"          element={<HomePage      />} />
+                <Route path="/map"       element={<MapPage       />} />
+                <Route path="/adventure" element={<AdventurePage />} />
+            </Routes>
+        </div>
+        
         <Footer />
-    </>
+    </div>
   );
 }
 

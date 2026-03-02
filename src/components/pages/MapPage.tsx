@@ -1,8 +1,13 @@
+import BonusMap from "../maps/BonusMap";
+import "./styles/mappage.css";
+
 function MapPage() {
 
     return(
         <>
-            <p>Bónus! Map coming soon!</p>
+            <div className="map-container">
+                <BonusMap />
+            </div>
         </>
     );
 }

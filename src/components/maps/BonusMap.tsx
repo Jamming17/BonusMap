@@ -1,4 +1,5 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import "./styles/bonus-map.css";
 
 const icelandBounds: [[number, number], [number, number]] = [
     [63.0, -25.5], //southwest
@@ -14,7 +15,7 @@ function BonusMap() {
                 maxBoundsViscosity={1.0}
                 minZoom={6}
                 maxZoom={17}
-                style={{ height: "100vh", width: "100%" }}    
+                className="map-view"
             >
                 <TileLayer 
                     attribution="&copy; OpenStreetMap contributors & Carto"

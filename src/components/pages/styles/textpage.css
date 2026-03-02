@@ -1,0 +1,14 @@
+.textpage-container {
+
+    width: 80vw;
+    max-width: 1600px;
+    margin: auto;
+    padding: 20px;
+
+    background-color: white;
+}
+
+.textpage-title {
+    text-align: center;
+    font-size: 40px;
+}

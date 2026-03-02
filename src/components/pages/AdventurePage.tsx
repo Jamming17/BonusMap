@@ -1,8 +1,12 @@
+import "./styles/textpage.css";
+
 function AdventurePage() {
 
     return(
         <>
-            <p>Bónus! Adventures coming soon!</p>
+            <div className="textpage-container">
+                <div className="textpage-title">Bónus! Adventures coming soon!</div>
+            </div>
         </>
     );
 }

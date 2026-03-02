@@ -1,9 +1,11 @@
+import "./styles/textpage.css";
+
 function HomePage() {
 
     return(
-        <>
-            <p>Bónus! Home page coming soon!</p>
-        </>
+        <div className="textpage-container">
+            <div className="textpage-title">Welcome to Bónus Adventures!</div>
+        </div>
     );
 }
 
