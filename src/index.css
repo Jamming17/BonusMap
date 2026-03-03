@@ -22,6 +22,8 @@
 :root {
     --bonus-yellow: #FFE300;
     --bonus-pink:   #FF59B0;
+
+    --screen-small: 600px;
 }
 
 html, body {

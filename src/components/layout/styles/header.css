@@ -1,12 +1,19 @@
 .header-container {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 
     width: 100vw;
     height: 100px;
 
     background-color: var(--bonus-yellow);
+}
+
+@media (max-width: 600px) {
+    .header-container {
+        height: 100px;
+    }
 }
 
 .header-navlink {
@@ -23,5 +30,12 @@
 
     color: black;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 30px;
+}
+
+@media (max-width: 600px) {
+    .header-item {
+        font-size: 16px;
+        padding: 3px;
+    }
 }

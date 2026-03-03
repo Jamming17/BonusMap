@@ -9,7 +9,6 @@ export type BonusShop = {
 }
 
 export function parseJSON(jsonInput: string): Array<BonusShop> {
-    
     const parsedJson: unknown = JSON.parse(jsonInput);
 
     if (Array.isArray(parsedJson) === false) return [];

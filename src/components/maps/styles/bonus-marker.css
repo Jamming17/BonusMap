@@ -1,0 +1,10 @@
+.marker-popup {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 3px;
+}
+
+.marker-popup-image {
+    padding-right: 10px;
+}
