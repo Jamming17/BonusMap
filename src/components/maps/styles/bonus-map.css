@@ -1,3 +1,32 @@
+.map-container {
+
+    min-height: 0;
+    flex: 1;
+    max-width: 1200px;
+    margin: 10px auto;
+
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+}
+
 .map-view {
     height: calc(100vh - 200px);
+}
+
+.backdrop {
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0);
+    pointer-events: none;
+
+    transition: background 0.3s ease;
+    
+    z-index: 1900;
+}
+
+.backdrop.show {
+    background: rgba(0, 0, 0, 0.5);
+    pointer-events: auto;
 }

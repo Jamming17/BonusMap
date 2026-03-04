@@ -7,6 +7,7 @@ import "./styles/bonus-marker.css";
 
 type BonusMarkerProps = {
     shop: BonusShop;
+    onClick: () => void;
 }
 
 
@@ -17,7 +18,7 @@ const bonusIcon = new Icon({
   iconAnchor: [21, 41],
 });
 
-function BonusMarker({ shop }: BonusMarkerProps) {
+function BonusMarker({ shop, onClick }: BonusMarkerProps) {
     return(
         <div className="marker-outer">
             <Marker
@@ -34,9 +35,12 @@ function BonusMarker({ shop }: BonusMarkerProps) {
                             height="30px"
                         />
 
-                        <div>
+                        <div onClick={onClick}>
                             {shop.name}<br />
-                            {`${shop.postcode}, ${shop.city}, ${shop.country}`}
+                            {`${shop.postcode}, ${shop.city}, ${shop.country}`}<br />
+                            <div className="marker-link">
+                                View more
+                            </div>
                         </div>
                     </div>
                 </Popup>

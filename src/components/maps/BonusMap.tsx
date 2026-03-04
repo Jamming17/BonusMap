@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import BonusMarker from "./BonusMarker";
 import { parseJSON, type BonusShop } from "../../utils/bonusJsonParser";
@@ -5,6 +6,7 @@ import "./styles/bonus-map.css";
 
 import RawIcelandData from "../../data/bonus-is.json";
 import RawFaroeIslandsData from "../../data/bonus-fo.json";
+import InfoCard from "./InfoCard";
 
 type BonusMapProps = {
     country: "Iceland" | "Faroe Islands";
@@ -26,31 +28,46 @@ const FAROE_ISLANDS_DATA: BonusShop[] = parseJSON(JSON.stringify(RawFaroeIslands
 
 function BonusMap({ country }: BonusMapProps) {
 
+    const [ selectedShop, setSelectedShop ] = useState<BonusShop | null>(null);
+
     const countryIsIceland = country === "Iceland";
     const data = (countryIsIceland) ? ICELAND_DATA : FAROE_ISLANDS_DATA;
 
+    function handleClose() {
+        setSelectedShop(null);
+    }
+
     return (
         <>
-            <MapContainer
-                key={country}
-                bounds={(countryIsIceland) ? ICELAND_BOUNDS : FAROE_ISLANDS_BOUNDS}
-                maxBounds={(countryIsIceland) ? ICELAND_BOUNDS : FAROE_ISLANDS_BOUNDS}
-                maxBoundsViscosity={1.0}
-                minZoom={6}
-                maxZoom={(countryIsIceland) ? ICELAND_ZOOM : FAROE_ISLANDS_ZOOM}
-                className="map-view"
-            >
-                <TileLayer 
-                    attribution="&copy; OpenStreetMap contributors & Carto"
-                    url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                />
+            <div className="map-container">
+                {/* Map */}
+                <MapContainer
+                    key={country}
+                    bounds={(countryIsIceland) ? ICELAND_BOUNDS : FAROE_ISLANDS_BOUNDS}
+                    maxBounds={(countryIsIceland) ? ICELAND_BOUNDS : FAROE_ISLANDS_BOUNDS}
+                    maxBoundsViscosity={1.0}
+                    minZoom={6}
+                    maxZoom={(countryIsIceland) ? ICELAND_ZOOM : FAROE_ISLANDS_ZOOM}
+                    className="map-view"
+                >
+                    <TileLayer 
+                        attribution="&copy; OpenStreetMap contributors & Carto"
+                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+                    />
 
-                
-                {(data.map((shop) => (
-                    <BonusMarker shop={shop} />
-                )))}
+                    {(data.map((shop) => (
+                        <BonusMarker shop={shop} onClick={() => {setSelectedShop(shop)}}/>
+                    )))}
 
-            </MapContainer>
+                </MapContainer>
+            </div>
+
+            <div className={`backdrop ${selectedShop ? "show" : ""}`}
+                onClick={handleClose}
+            />
+            
+            {/* Popup Card */}
+            <InfoCard shop={selectedShop} onClose={handleClose}/>
         </>
     )
 }

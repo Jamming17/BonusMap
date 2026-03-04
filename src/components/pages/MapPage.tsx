@@ -24,9 +24,7 @@ function MapPage() {
                     Faroe Islands 🇫🇴
                 </div>
             </div>
-            <div className="map-container">
-                <BonusMap country={selectedCountry}/>
-            </div>
+            <BonusMap country={selectedCountry}/>
         </>
     );
 }
