@@ -31,6 +31,10 @@
 }
 
 
+.card-information {
+    display: flex;
+    flex-direction: column;
+}
 
 .shop-title-container {
     display: flex;
@@ -48,11 +52,20 @@
 }
 
 
-.shop-address-container {
+.info {
     background-color: #CCCCCC;
     border-radius: 5px;
-    padding: 10px;
+    padding: 7px;
     line-height: 1.3rem;
+    margin-bottom: 5px;
+}
+
+.info-bold {
+    font-weight: bold;
+}
+
+.info-red {
+    background-color: #DD8181;
 }
 
 .shop-address {
@@ -61,4 +74,60 @@
 
 .shop-address-coordinates {
     color: #555555;
+}
+
+
+.bonus-info-outer-container {
+    display: flex;
+}
+
+.bonus-thumbnail {
+    margin: 5px 10px 10px 0;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.bonus-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 5px 0;
+}
+
+.nearby-title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.nearby-outer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: centre;
+    justify-items: centre;
+
+    padding: 10px 0px;
+
+    width: 100%;
+}
+
+.nearby-container {
+    display: flex;
+}
+
+.nearby-thumbnail {
+    border-radius: 3px;
+    width: 50%;
+    margin-right: 5px;
+}
+
+.nearby-details {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.nearby-description {
+    padding-top: 3px;
 }

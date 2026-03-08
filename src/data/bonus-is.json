@@ -7,7 +7,19 @@
             "city": "Kópavogur",
             "postcode": "201",
             "latitude": 64.1035,
-            "longitude": -21.8795
+            "longitude": -21.8795,
+            "imageName": "smaratorg",
+            "info": "",
+            "openingTimes": "9-21",
+            "dateOpened": "1st December 2001",
+            "dateClosed": "",
+            "nearby": [
+                {
+                    "name": "Smáralind",
+                    "description": "Shopping centre and filming location of the Dancin Krono Remix!",
+                    "imageName": "smaralind"
+                }
+            ]
         },
         {
             "id": "IS-KOP-2",
@@ -16,7 +28,13 @@
             "city": "Kópavogur",
             "postcode": "200",
             "latitude": 64.1143,
-            "longitude": -21.8983
+            "longitude": -21.8983,
+            "imageName": "nybylavegur",
+            "info": "",
+            "openingTimes": "10-21",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-KOP-3",
@@ -25,7 +43,13 @@
             "city": "Kópavogur",
             "postcode": "203",
             "latitude": 64.0964,
-            "longitude": -21.8027
+            "longitude": -21.8027,
+            "imageName": "ogurhvarf",
+            "info": "",
+            "openingTimes": "10-21",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
 
         {
@@ -35,7 +59,13 @@
             "city": "Garðabær",
             "postcode": "210",
             "latitude": 64.0891,
-            "longitude": -21.9202
+            "longitude": -21.9202,
+            "imageName": "garðatorg",
+            "info": "",
+            "openingTimes": "10-20",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-GAR-2",
@@ -44,7 +74,13 @@
             "city": "Garðabær",
             "postcode": "210",
             "latitude": 64.0729,
-            "longitude": -21.9121
+            "longitude": -21.9121,
+            "imageName": "kauptun",
+            "info": "",
+            "openingTimes": "10-20",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-GAR-3",
@@ -53,7 +89,13 @@
             "city": "Garðabær",
             "postcode": "210",
             "latitude": 64.0765,
-            "longitude": -21.9268
+            "longitude": -21.9268,
+            "imageName": "miðhraun",
+            "info": "",
+            "openingTimes": "10-20",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
 
         {
@@ -63,7 +105,13 @@
             "city": "Hafnarfjörður",
             "postcode": "220",
             "latitude": 64.0776,
-            "longitude": -21.9419
+            "longitude": -21.9419,
+            "imageName": "helluhraun",
+            "info": "",
+            "openingTimes": "10-21",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-HAF-2",
@@ -72,7 +120,13 @@
             "city": "Hafnarfjörður",
             "postcode": "221",
             "latitude": 64.0524,
-            "longitude": -21.9794
+            "longitude": -21.9794,
+            "imageName": "tjarnarvellir",
+            "info": "",
+            "openingTimes": "10-21",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
 
         {
@@ -82,7 +136,13 @@
             "city": "Mosfellsbær",
             "postcode": "270",
             "latitude": 64.1657,
-            "longitude": -21.6993
+            "longitude": -21.6993,
+            "imageName": "bjarkarholt",
+            "info": "",
+            "openingTimes": "10-21",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
 
         {
@@ -92,7 +152,24 @@
             "city": "Reykjavík",
             "postcode": "101",
             "latitude": 64.1536,
-            "longitude": -21.9516
+            "longitude": -21.9516,
+            "imageName": "fiskisloð",
+            "info": "",
+            "openingTimes": "10-21",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": [
+                { 
+                    "name": "Lava Show",
+                    "description": "The only live lava show in the world, demonstrating how lava forms and how it works.",
+                    "imageName": "lavashow"
+                },
+                {
+                    "name": "Omnom Ice Cream",
+                    "description": "Awesome ice cream shop from Omnom chocolate company. They sell nine different ice cream variants and hot chocolate!",
+                    "imageName": "omnom"
+                }
+            ]
         },
         {
             "id": "IS-REY-2",
@@ -101,7 +178,13 @@
             "city": "Reykjavík",
             "postcode": "103",
             "latitude": 64.1446,
-            "longitude": -21.9226
+            "longitude": -21.9226,
+            "imageName": "kjorgarður",
+            "info": "",
+            "openingTimes": "10-22",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-REY-3",
@@ -110,7 +193,13 @@
             "city": "Reykjavík",
             "postcode": "105",
             "latitude": 64.1415,
-            "longitude": -21.9075
+            "longitude": -21.9075,
+            "imageName": "skipholt",
+            "info": "",
+            "openingTimes": "10-21",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-REY-4",
@@ -119,7 +208,13 @@
             "city": "Reykjavík",
             "postcode": "104",
             "latitude": 64.1426,
-            "longitude": -21.8478
+            "longitude": -21.8478,
+            "imageName": "holtagarðar",
+            "info": "",
+            "openingTimes": "10-20",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-REY-5",
@@ -128,7 +223,13 @@
             "city": "Reykjavík",
             "postcode": "104",
             "latitude": 64.1351,
-            "longitude": -21.8462
+            "longitude": -21.8462,
+            "imageName": "skutuvogur",
+            "info": "Bónus, Skútuvogur was the first ever Bónus store.",
+            "openingTimes": "10-19",
+            "dateOpened": "08/04/1989",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-REY-6",
@@ -137,7 +238,13 @@
             "city": "Reykjavík",
             "postcode": "108",
             "latitude": 64.1313,
-            "longitude": -21.8695
+            "longitude": -21.8695,
+            "imageName": "skeifan",
+            "info": "",
+            "openingTimes": "10-21",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-REY-7",
@@ -146,7 +253,13 @@
             "city": "Reykjavík",
             "postcode": "103",
             "latitude": 64.1295,
-            "longitude": -21.8964
+            "longitude": -21.8964,
+            "imageName": "kringlan",
+            "info": "",
+            "openingTimes": "10-19",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-REY-8",
@@ -155,7 +268,13 @@
             "city": "Reykjavík",
             "postcode": "110",
             "latitude": 64.1181,
-            "longitude": -21.7958
+            "longitude": -21.7958,
+            "imageName": "hraunbaer",
+            "info": "",
+            "openingTimes": "10-20",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-REY-9",
@@ -164,7 +283,13 @@
             "city": "Reykjavík",
             "postcode": "111",
             "latitude": 64.1090,
-            "longitude": -21.8163
+            "longitude": -21.8163,
+            "imageName": "louholar",
+            "info": "",
+            "openingTimes": "10-19",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-REY-10",
@@ -173,7 +298,13 @@
             "city": "Reykjavík",
             "postcode": "110",
             "latitude": 64.1014,
-            "longitude": -21.7769
+            "longitude": -21.7769,
+            "imageName": "norðlingabraut",
+            "info": "",
+            "openingTimes": "10-20",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-REY-11",
@@ -182,7 +313,13 @@
             "city": "Reykjavík",
             "postcode": "112",
             "latitude": 64.1505,
-            "longitude": -21.7899
+            "longitude": -21.7899,
+            "imageName": "spongin",
+            "info": "",
+            "openingTimes": "10-21",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
 
 
@@ -194,7 +331,13 @@
             "city": "Njarðvík",
             "postcode": "260",
             "latitude": 63.9726,
-            "longitude": -22.5435
+            "longitude": -22.5435,
+            "imageName": "fitjar",
+            "info": "",
+            "openingTimes": "10-21",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-SW-2",
@@ -203,7 +346,13 @@
             "city": "Keflavík",
             "postcode": "230",
             "latitude": 64.0033,
-            "longitude": -22.5566
+            "longitude": -22.5566,
+            "imageName": "tungata",
+            "info": "",
+            "openingTimes": "10-20",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-SW-3",
@@ -212,7 +361,13 @@
             "city": "Hveragerði",
             "postcode": "810",
             "latitude": 63.9955,
-            "longitude": -21.1900
+            "longitude": -21.1900,
+            "imageName": "sunnumork",
+            "info": "",
+            "openingTimes": "10-20",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-SW-4",
@@ -221,16 +376,28 @@
             "city": "Selfoss",
             "postcode": "800",
             "latitude": 63.9383,
-            "longitude": -20.9735
+            "longitude": -20.9735,
+            "imageName": "larsenstraeti",
+            "info": "",
+            "openingTimes": "10-21",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-VES-1",
-            "name": "Bónus, Vestmannaeyjar",
+            "name": "Bónus, Miðstræti 20, Vestmannaeyjar",
             "country": "Iceland",
             "city": "Vestmannaeyabær",
             "postcode": "900",
             "latitude": 63.4419,
-            "longitude": -20.2716
+            "longitude": -20.2716,
+            "imageName": "miðstraeti",
+            "info": "",
+            "openingTimes": "10-19",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
 
 
@@ -241,7 +408,13 @@
             "city": "Akranes",
             "postcode": "300",
             "latitude": 64.3272,
-            "longitude": -22.0556
+            "longitude": -22.0556,
+            "imageName": "smiðjuvellir",
+            "info": "",
+            "openingTimes": "10-20",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-NW-2",
@@ -250,7 +423,13 @@
             "city": "Borgarnes",
             "postcode": "310",
             "latitude": 64.5410,
-            "longitude": -21.9094
+            "longitude": -21.9094,
+            "imageName": "digranesgata",
+            "info": "",
+            "openingTimes": "10-20",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-NW-3",
@@ -259,7 +438,13 @@
             "city": "Stykkishólmur",
             "postcode": "340",
             "latitude": 65.0738,
-            "longitude": -22.7290
+            "longitude": -22.7290,
+            "imageName": "borgabraut",
+            "info": "",
+            "openingTimes": "10-19",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-NW-4",
@@ -268,7 +453,13 @@
             "city": "Ísafjördur",
             "postcode": "400",
             "latitude": 66.0604,
-            "longitude": -23.1744
+            "longitude": -23.1744,
+            "imageName": "skeiði",
+            "info": "",
+            "openingTimes": "10-19",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
 
         {
@@ -278,7 +469,13 @@
             "city": "Akureyri",
             "postcode": "603",
             "latitude": 65.6983,
-            "longitude": -18.1395
+            "longitude": -18.1395,
+            "imageName": "norðutorg",
+            "info": "",
+            "openingTimes": "10-21",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-AKU-2",
@@ -287,7 +484,13 @@
             "city": "Akureyri",
             "postcode": "603",
             "latitude": 65.6921,
-            "longitude": -18.1089
+            "longitude": -18.1089,
+            "imageName": "langholt",
+            "info": "",
+            "openingTimes": "10-20",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "IS-AKU-3",
@@ -296,7 +499,13 @@
             "city": "Akureyri",
             "postcode": "600",
             "latitude": 65.6694,
-            "longitude": -18.1103
+            "longitude": -18.1103,
+            "imageName": "naustahverfi",
+            "info": "",
+            "openingTimes": "10-20",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
 
         {
@@ -306,7 +515,13 @@
             "city": "Egilsstaðir",
             "postcode": "700",
             "latitude": 65.2635,
-            "longitude": -14.4050
+            "longitude": -14.4050,
+            "imageName": "miðvangur",
+            "info": "",
+            "openingTimes": "10-19",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         }
     ]
 }

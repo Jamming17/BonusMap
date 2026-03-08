@@ -7,7 +7,13 @@
             "city": "Tórshavn, Streymoy",
             "postcode": "100",
             "latitude": 62.0054,
-            "longitude": -6.8017
+            "longitude": -6.8017,
+            "imageName": "við-marknagil",
+            "info": "",
+            "openingTimes": "9-22",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "FO-STR-2",
@@ -16,7 +22,13 @@
             "city": "Tórshavn, Streymoy",
             "postcode": "100",
             "latitude": 62.0225,
-            "longitude": -6.7649
+            "longitude": -6.7649,
+            "imageName": "miðlon",
+            "info": "",
+            "openingTimes": "9-22",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "FO-STR-3",
@@ -25,7 +37,13 @@
             "city": "Hoyví, Streymoy",
             "postcode": "108",
             "latitude": 62.0319,
-            "longitude": -6.7740
+            "longitude": -6.7740,
+            "imageName": "karlamagnusarbreyt",
+            "info": "",
+            "openingTimes": "9-22",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
 
         {
@@ -35,7 +53,13 @@
             "city": "Runavík, Eysturoy",
             "postcode": "620",
             "latitude": 62.1123,
-            "longitude": -6.7223
+            "longitude": -6.7223,
+            "imageName": "runavik",
+            "info": "",
+            "openingTimes": "9-22",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         {
             "id": "FO-EYS-2",
@@ -44,7 +68,13 @@
             "city": "Norðskáli, Eysturoy",
             "postcode": "460",
             "latitude": 62.2102,
-            "longitude": -7.0008
+            "longitude": -7.0008,
+            "imageName": "norðskala",
+            "info": "",
+            "openingTimes": "9-22",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
 
         {
@@ -54,7 +84,13 @@
             "city": "Klaksvík, Borðoy",
             "postcode": "700",
             "latitude": 62.2227,
-            "longitude": -6.5745
+            "longitude": -6.5745,
+            "imageName": "klaksvik",
+            "info": "",
+            "openingTimes": "9-22",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
 
         {
@@ -64,7 +100,13 @@
             "city": "Miðvágur, Vágar",
             "postcode": "370",
             "latitude": 62.0482,
-            "longitude": -7.2022
+            "longitude": -7.2022,
+            "imageName": "miðvagur",
+            "info": "",
+            "openingTimes": "9-22",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         },
         
         {
@@ -74,7 +116,13 @@
             "city": "Tvøroyri, Suðuroy",
             "postcode": "800",
             "latitude": 61.5550,
-            "longitude": -6.8100
+            "longitude": -6.8100,
+            "imageName": "tvoroyri",
+            "info": "",
+            "openingTimes": "9-22",
+            "dateOpened": "",
+            "dateClosed": "",
+            "nearby": []
         }
     ]
 }
