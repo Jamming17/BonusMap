@@ -90,13 +90,14 @@
     margin: 5px 10px 00px 0;
     border-radius: 5px;
     width: 50%;
+    max-width: 300px;
 }
 
 .bonus-info-container {
     display: flex;
     flex-direction: column;
-    width: 50%;
     margin-top: 5px;
+    flex: 1;
 }
 
 .nearby-title {
@@ -124,6 +125,7 @@
 .nearby-thumbnail {
     border-radius: 3px;
     width: 50%;
+    max-width: 300px;
     margin-right: 5px;
     max-height: 140px;
     object-fit: cover;
