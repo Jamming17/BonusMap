@@ -49,7 +49,13 @@
             "openingTimes": "10-21",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "Elliðavatn",
+                    "description": "A large lake to the east of Kópavogur.",
+                    "imageName": "elliðavatn"
+                }
+            ]
         },
 
         {
@@ -61,7 +67,7 @@
             "latitude": 64.0891,
             "longitude": -21.9202,
             "imageName": "garðatorg",
-            "info": "",
+            "info": "No nearby attractions listed but this Bónus is in the middle of a plaza with lots of stuff around.",
             "openingTimes": "10-20",
             "dateOpened": "",
             "dateClosed": "",
@@ -80,7 +86,13 @@
             "openingTimes": "10-20",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "IKEA",
+                    "description": "Home furniture shop and Iceland's most popular restaurant!",
+                    "imageName": "ikea"
+                }
+            ]
         },
         {
             "id": "IS-GAR-3",
@@ -184,7 +196,23 @@
             "openingTimes": "10-22",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "Skólavörðustígur: Rainbow Street",
+                    "description": "A rainbow street in central Reykjavík. It was painted rainbow during Reykjavík Pride in 2015, one of Iceland's biggest festivals that has been running since 1999.",
+                    "imageName": "skolavorðustigur"
+                },
+                {
+                    "name": "Laugavegur",
+                    "description": "Reykjavík's main high street filled with souvenir shops, restaurants and more!",
+                    "imageName": "laugavegur"
+                },
+                {
+                    "name": "Sólfar (The Sun Voyager)",
+                    "description": "A steel sculpture of a \"vessel of dreams\" created by Jón Gunnar Árnason and unveiled in 1990.",
+                    "imageName": "solfar"
+                }
+            ]
         },
         {
             "id": "IS-REY-3",
@@ -199,7 +227,13 @@
             "openingTimes": "10-21",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "Viking Cow",
+                    "description": "COW!",
+                    "imageName": "vikingcow"
+                }
+            ]
         },
         {
             "id": "IS-REY-4",
@@ -214,7 +248,18 @@
             "openingTimes": "10-20",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "Holtagarðar Shopping Centre",
+                    "description": "Shopping centre in east Reykjavík.",
+                    "imageName": "holtagarðar"
+                },
+                {
+                    "name": "Minigarðurinn: Indoor Mini Golf",
+                    "description": "18-hole mini golf course indoors!",
+                    "imageName": "minigarðurinn"
+                }
+            ]
         },
         {
             "id": "IS-REY-5",
@@ -259,7 +304,18 @@
             "openingTimes": "10-19",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "Kringlan Shopping Centre",
+                    "description": "One of the largest shopping centres in Iceland and home to this Bónus!",
+                    "imageName": "kringlan"
+                },
+                {
+                    "name": "Perlan",
+                    "description": "Nature and natural history museum in Reykjavík.",
+                    "imageName": "perlan"
+                }
+            ]
         },
         {
             "id": "IS-REY-8",
@@ -274,7 +330,18 @@
             "openingTimes": "10-20",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "Árbær Open Air Museum",
+                    "description": "Collection of historical buildings and interesting information about Iceland's past.",
+                    "imageName": "arbaer"
+                },
+                {
+                    "name": "Kermóafoss",
+                    "description": "Series of waterfalls in a small forested area. Just don't accidentally crash a wedding.",
+                    "imageName": "kermoafoss"
+                }
+            ]
         },
         {
             "id": "IS-REY-9",
@@ -285,11 +352,17 @@
             "latitude": 64.1090,
             "longitude": -21.8163,
             "imageName": "louholar",
-            "info": "",
+            "info": "Bring a weapon and your fire proof armour as this is the Breiðholt Bónus...",
             "openingTimes": "10-19",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "WWII Artillery Bunker",
+                    "description": "A bunker to protect from the wrath of Breiðholt.",
+                    "imageName": "bunker"
+                }
+            ]
         },
         {
             "id": "IS-REY-10",
@@ -304,7 +377,13 @@
             "openingTimes": "10-20",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "Rauðá Hiking Area",
+                    "description": "A nice river and paths to walk along.",
+                    "imageName": "rauða"
+                }
+            ]
         },
         {
             "id": "IS-REY-11",
@@ -319,7 +398,13 @@
             "openingTimes": "10-21",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "Goku Office",
+                    "description": "Look behind you.",
+                    "imageName": "goku"
+                }
+            ]
         },
 
 
