@@ -4,7 +4,7 @@ import "./styles/header.css";
 function Header() {
 
     return(
-        <nav className="header-container">
+        <div className="header-container">
             
             <NavLink to="/" className={({ isActive }) => `header-navlink ${isActive ? "active" : ""}`}>
                 <div className="header-item">Home</div>
@@ -18,7 +18,7 @@ function Header() {
                 <div className="header-item">Adventure</div>
             </NavLink>
 
-        </nav>
+        </div>
     );
 }
 

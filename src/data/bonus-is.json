@@ -258,6 +258,11 @@
                     "name": "Minigarðurinn: Indoor Mini Golf",
                     "description": "18-hole mini golf course indoors!",
                     "imageName": "minigarðurinn"
+                },
+                {
+                    "name": "Áskirkja Church (AKA Evil Krónan Mansion)",
+                    "description": "This is a church, but is also secretly the home of Bónus's mortal enemy, the evil coin supervillain Krónan...",
+                    "imageName": "kronanmansion"
                 }
             ]
         },
@@ -535,7 +540,7 @@
             "id": "IS-NW-4",
             "name": "Bónus, Skeiði",
             "country": "Iceland",
-            "city": "Ísafjördur",
+            "city": "Ísafjörður",
             "postcode": "400",
             "latitude": 66.0604,
             "longitude": -23.1744,

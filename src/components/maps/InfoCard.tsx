@@ -44,20 +44,23 @@ function InfoCard({ shop, onClose }: InfoCardProps) {
                                     </div>
                                 </div>
                             </div>
-
-                            <div className="nearby-title">Nearby:</div>
-                            {shop.nearby &&
-                                <div className="nearby-outer-container">
-                                    {shop.nearby.map((n, index) => (
-                                        <div key={index} className="nearby-container info">
-                                            <img className="nearby-thumbnail" src={`/nearby/${n.imageName}.jpg`} alt={`Image of ${n.name}`} />
-                                            <div className="nearby-details">
-                                                <div className="info-bold">{n.name}</div>
-                                                <div className="nearby-description">{n.description}</div>
-                                            </div>
+                            {shop.nearby.length > 0 &&
+                                <>
+                                    <div className="nearby-title">Nearby:</div>
+                                    {shop.nearby &&
+                                        <div className="nearby-outer-container">
+                                            {shop.nearby.map((n, index) => (
+                                                <div key={index} className="nearby-container info">
+                                                    <img className="nearby-thumbnail" src={`/nearby/${n.imageName}.jpg`} alt={`Image of ${n.name}`} />
+                                                    <div className="nearby-details">
+                                                        <div className="info-bold">{n.name}</div>
+                                                        <div className="nearby-description">{n.description}</div>
+                                                    </div>
+                                                </div>
+                                            ))}
                                         </div>
-                                    ))}
-                                </div>
+                                    }
+                                </>
                             }
                         </div>
                     </>

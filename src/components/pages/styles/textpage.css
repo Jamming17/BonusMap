@@ -5,10 +5,33 @@
     margin: auto;
     padding: 20px;
 
+    height: 100%;
+
     background-color: white;
 }
 
 .textpage-title {
     text-align: center;
-    font-size: 40px;
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.text {
+    margin-top: 15px; 
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.bonus-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.bonus-image {
+    height: 10rem;
 }

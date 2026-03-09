@@ -8,9 +8,10 @@
 
 .map-button {
     margin: 0px 3px;
-    padding: 5px;
-    width: 8rem;
+    padding: 7px;
+    width: 10rem;
     text-align: center;
+    font-size: 18px;
     
     background-color: whitesmoke;
     border-radius: 4px;
