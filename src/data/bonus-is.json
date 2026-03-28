@@ -34,7 +34,13 @@
             "openingTimes": "10-21",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "Svartiskógur",
+                    "description": "Small forest with some areas to walk.",
+                    "imageName": "svartiskogur"
+                }
+            ]
         },
         {
             "id": "IS-KOP-3",
@@ -54,6 +60,12 @@
                     "name": "Elliðavatn",
                     "description": "A large lake to the east of Kópavogur.",
                     "imageName": "elliðavatn"
+                },
+                {
+                    "name": "Elliðaárdalur",
+                    "description": "A nice walk along the Elliðaá.",
+                    "imageName": "elliðaardalur"
+
                 }
             ]
         },
@@ -71,7 +83,13 @@
             "openingTimes": "10-20",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "Arnarneslækur Walking Route",
+                    "description": "A short path to walk along Arnarneslækur river in north Garðabær.",
+                    "imageName": "arnarneslaekur"
+                }
+            ]
         },
         {
             "id": "IS-GAR-2",
@@ -232,6 +250,11 @@
                     "name": "Viking Cow",
                     "description": "COW!",
                     "imageName": "vikingcow"
+                },
+                {
+                    "name": "Höfði House",
+                    "description": "Important historical house, but Tómas believes it is full of spooooooky ghosts.",
+                    "imageName": "hofðihouse"
                 }
             ]
         },
@@ -294,7 +317,13 @@
             "openingTimes": "10-21",
             "dateOpened": "",
             "dateClosed": "",
-            "nearby": []
+            "nearby": [
+                {
+                    "name": "Glæsibær Shopping Centre",
+                    "description": "Small shopping centre in Reykjavík.",
+                    "imageName": "glaesibaer"
+                }
+            ]
         },
         {
             "id": "IS-REY-7",
@@ -319,6 +348,16 @@
                     "name": "Perlan",
                     "description": "Nature and natural history museum in Reykjavík.",
                     "imageName": "perlan"
+                },
+                {
+                    "name": "Öskjuhlíð Forest",
+                    "description": "A forest with some nice walking routes.",
+                    "imageName": "oskjuhlið"
+                },
+                {
+                    "name": "Nauthólsvík Geothermal Beach",
+                    "description": "Geomthermal beach with imported gold sand. As well as the heated parts of the sea, it has hot tubs and a sauna.",
+                    "imageName": "nautholsvik"
                 }
             ]
         },
@@ -384,9 +423,14 @@
             "dateClosed": "",
             "nearby": [
                 {
-                    "name": "Rauðá Hiking Area",
+                    "name": "Rauðávatn Hiking Area",
                     "description": "A nice river and paths to walk along.",
                     "imageName": "rauða"
+                },
+                {
+                    "name": "Rauðhólar",
+                    "description": "Hiking area with epic red hills.",
+                    "imageName": "rauðholar"
                 }
             ]
         },

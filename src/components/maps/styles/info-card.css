@@ -27,9 +27,17 @@
     top: 16px;
 
     font-size: 16px;
+}
+
+.card-close-button:hover {
     cursor: pointer;
 }
 
+.card-complete-button {
+    margin-left: auto;
+    padding: 4px;
+    font-size: 16px;
+}
 
 .card-information {
     display: flex;
@@ -51,12 +59,16 @@
     font-weight: bold;
 }
 
-
 .info {
+    line-height: 1.3rem;
+}
+
+.info-and-button {
+    display: flex;
+    align-items: center;
     background-color: #CCCCCC;
     border-radius: 5px;
     padding: 7px;
-    line-height: 1.3rem;
     margin-bottom: 5px;
 }
 
@@ -91,6 +103,7 @@
     border-radius: 5px;
     width: 50%;
     max-width: 300px;
+    object-fit: cover;
 }
 
 .bonus-info-container {

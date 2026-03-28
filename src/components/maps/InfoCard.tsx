@@ -4,10 +4,13 @@ import "./styles/info-card.css";
 
 type InfoCardProps = {
     shop: BonusShop | null;
+    isComplete: boolean;
+    onComplete: (id: string) => void;
+    onUncomplete: (id: string) => void;
     onClose: () => void;
 }
 
-function InfoCard({ shop, onClose }: InfoCardProps) {
+function InfoCard({ shop, isComplete, onComplete, onUncomplete, onClose }: InfoCardProps) {
 
     return (
             <div className={`info-card ${shop ? "open" : ""}`}>
@@ -26,14 +29,20 @@ function InfoCard({ shop, onClose }: InfoCardProps) {
                             </div>
 
                             <div className="bonus-info-outer-outer-container">
-                                <div className="info">
-                                    <div className="info-bold">
-                                        {`${shop.postcode} ${shop.city}, ${shop.country}`}
+                                <div className="info-and-button">
+                                    <div className="info">
+                                        <div className="info-bold">
+                                            {`${shop.postcode} ${shop.city}, ${shop.country}`}
+                                        </div>
+                                        <div className="shop-address-coordinates">
+                                            {`Latitude: ${shop.latitude}, Longitude: ${shop.longitude}`}
+                                        </div>
                                     </div>
-                                    <div className="shop-address-coordinates">
-                                        {`Latitude: ${shop.latitude}, Longitude: ${shop.longitude}`}
+                                        { !isComplete
+                                            ? <button className="card-complete-button" onClick={() => onComplete(shop.id)}>Complete ✅</button>
+                                            : <button className="card-complete-button" onClick={() => onUncomplete(shop.id)}>Uncomplete ❌</button>
+                                        }
                                     </div>
-                                </div>
                                 <div className="bonus-info-outer-container">
                                     <img className="bonus-thumbnail" src={`/shops/${shop.imageName}.jpg`} alt={`Image of ${shop.name}`} />
                                     <div className="bonus-info-container">

@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { MapContainer, TileLayer } from "react-leaflet";
 import BonusMarker from "./BonusMarker";
 import { parseJSON, type BonusShop } from "../../utils/bonusJsonParser";
@@ -29,12 +29,39 @@ const FAROE_ISLANDS_DATA: BonusShop[] = parseJSON(JSON.stringify(RawFaroeIslands
 function BonusMap({ country }: BonusMapProps) {
 
     const [ selectedShop, setSelectedShop ] = useState<BonusShop | null>(null);
+    const [ completeList, setCompleteList ] = useState<Record< string, boolean >>({});
 
     const countryIsIceland = country === "Iceland";
     const data = (countryIsIceland) ? ICELAND_DATA : FAROE_ISLANDS_DATA;
 
+    useEffect(() => {
+        for (let shop of data) {
+            const completed = localStorage.getItem(shop.id) === "1" ? true : false;
+            setCompleteList(prev => ({
+                ...prev,
+                [shop.id]: completed
+            }));
+        }
+    }, [country]);
+
     function handleClose() {
         setSelectedShop(null);
+    }
+
+    function handleComplete(id: string) {
+        localStorage.setItem(id, "1");
+        setCompleteList(prev => ({
+            ...prev,
+            [id]: true
+        }));
+    }
+
+    function handleUncomplete(id: string) {
+        localStorage.setItem(id, "0");
+        setCompleteList(prev => ({
+            ...prev,
+            [id]: false
+        }));
     }
 
     return (
@@ -56,7 +83,7 @@ function BonusMap({ country }: BonusMapProps) {
                     />
 
                     {(data.map((shop) => (
-                        <BonusMarker shop={shop} onClick={() => {setSelectedShop(shop)}}/>
+                        <BonusMarker shop={shop} isComplete={completeList[shop.id] || false} onClick={() => {setSelectedShop(shop)}}/>
                     )))}
 
                 </MapContainer>
@@ -67,7 +94,7 @@ function BonusMap({ country }: BonusMapProps) {
             />
             
             {/* Popup Card */}
-            <InfoCard shop={selectedShop} onClose={handleClose}/>
+            <InfoCard shop={selectedShop} isComplete={selectedShop?.id ? completeList[selectedShop.id] ?? false : false} onClose={handleClose} onComplete={handleComplete} onUncomplete={handleUncomplete} />
         </>
     )
 }

@@ -3,22 +3,24 @@ import { Marker, Popup } from "react-leaflet";
 import { type BonusShop } from "../../utils/bonusJsonParser";
 import bonusPig from "../../assets/bonus.png";
 import bonusPigPin from "../../assets/bonus-pin.png";
+import bonusPigPinCompleted from "../../assets/bonus-pin-complete.png";
 import "./styles/bonus-marker.css";
 
 type BonusMarkerProps = {
     shop: BonusShop;
+    isComplete: boolean;
     onClick: () => void;
 }
 
+function BonusMarker({ shop, isComplete: completed, onClick }: BonusMarkerProps) {
 
-const bonusIcon = new Icon({
-  iconUrl: bonusPigPin,
-  shadowUrl: "https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png",
-  iconSize: [42, 60],
-  iconAnchor: [21, 41],
-});
+    const bonusIcon = new Icon({
+        iconUrl: !completed ? bonusPigPin : bonusPigPinCompleted,
+        shadowUrl: "https://unpkg.com/leaflet@1.7.1/dist/images/marker-shadow.png",
+        iconSize: [42, 60],
+        iconAnchor: [21, 41],
+    });
 
-function BonusMarker({ shop, onClick }: BonusMarkerProps) {
     return(
         <div className="marker-outer">
             <Marker
