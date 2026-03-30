@@ -10,15 +10,34 @@
     background-color: white;
 }
 
-.textpage-title {
+.title {
+    margin-top: 25px;
     text-align: center;
     font-size: 28px;
     font-weight: bold;
     text-decoration-line: underline;
 }
 
+.sub-title {
+    margin-top: 15px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+.sub-sub-title {
+    margin-top: 15px;
+    font-weight: bold;
+}
+
 .text {
-    margin-top: 15px; 
+    margin-top: 10px;
+}
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 .text-bold {
@@ -34,4 +53,83 @@
 
 .bonus-image {
     height: 10rem;
+}
+
+.text-image {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+.text-image.reverse {
+    flex-direction: row-reverse;
+}
+
+.text-image .swiper {
+    width: 100%;
+    max-width: 450px;
+}
+
+.text-image img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+    overflow: clip;
+}
+
+.text-image img.portrait {
+    width: 60%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-image .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--bonus-yellow);
+    max-height: 300px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.text-image .caption {
+    background-color: #CCCCCC;
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.text-image .swiper .swiper-pagination {
+    bottom: 30px !important;
+}
+
+.text-image .swiper-pagination-bullet {
+    width: 10px;
+    height: 10px;
+    background-color: var(--bonus-yellow);
+    opacity: 1;
+}
+
+.text-image .swiper-pagination-bullet-active {
+    background-color: var(--bonus-pink);
+}
+
+@media (max-width: 768px) {
+    .text-image {
+        flex-direction: column;
+    }
+
+    .text-image.reverse {
+        flex-direction: column;
+    }
+
+    .text-image .swiper {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .text-image img {
+        height: 200px;
+    }
 }

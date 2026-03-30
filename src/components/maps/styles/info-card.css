@@ -38,7 +38,7 @@
     padding: 4px;
     font-size: 16px;
     white-space: nowrap;
-    flex-shrink: 0; /* 👈 prevents it from being squished */
+    flex-shrink: 0;
 }
 
 .card-information {
