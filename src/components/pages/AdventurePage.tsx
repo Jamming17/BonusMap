@@ -104,6 +104,79 @@ const phase1: Array<AdventureModuleProps> = [
                 images: [ ["paskaegg", "Two Bónus Easter Eggs"], ["chocolate-bonus", "The chocolate Bónus pig!"], ["chocolate-bonus-2", ""] ]
             }
         ]
+    },
+    {
+        date: "29th March",
+        day: 2,
+        visits: [
+            {
+                title: "Kauptún",
+                text: [
+                    <>
+                        For day two, we decided to visit every Garðabær Bónus plus one of the two Hafnarfjördur ones. This trip involved minimal bus trips (the buses are less
+                        frequent on weekends) and <i>a lot</i> of walking; more than we really realised!
+                    </>,
+                    <>
+                        We started by getting the bus to IKEA in Garðabær. Fun fact: IKEA is Iceland's most popular restaurant for locals as it has very affordable food. I visited
+                        last time I was here and it was very good for the price. The first Bónus store of today is right next to the IKEA car park and the bus dropped us off virtually right
+                        outside it.
+                    </>,
+                    <>
+                        From this Bónus store I bought lunch from the bakery. I bought a pizza ring and two doughnuts, one for me and one for Tómas. The pizza ring was a little too expensive
+                        for what it was, I thought, but the doughnuts were great!
+                    </>
+                ],
+                images: [ ["kauptun", "Bónus, Kauptún"], ["kauptun-s", ""], ["kauptun-f", "Pizza ring and doughnuts"], ["kauptun-f2", "Me munching on the pizza ring"], ["kauptun-a1", "Outskirts of Garðabær"] ]
+            },
+            {
+                title: "Helluhraun",
+                text: [
+                    <>
+                        After a veryyyy long detour around the outskirts of Garðabær, we ended up wandering around random streets in Hafnarfjörður. Eventually, we found our way to
+                        our next Bónus in north Hafnarfjörður: Helluhraun. Unfortunately, the weather was pretty rough on the way to this one, so I have my hood up!
+                    </>,
+                    <>
+                        At this Bónus, I bought some Rúgbrauð. This is a traditional Icelandic rye bread made with little flour (as it was hard to obtain wheat here) and is usually served with butter.
+                        I have tried this bread before on one of my previous visits, and in my opinion it is okay but not something I'd eat regularly. Definitely worth a try though!
+                        This time though, the Rúgbrauð is a gift for my friend Alex who asked for some without actually knowing what it is, which I thought was quite funny!
+                    </>
+                ],
+                images: [ ["helluhraun", "Bónus, Helluhraun"], [ "helluhraun-s", "" ], [ "helluhraun-f", "Rúgbrauð - Icelandic rye bread"] ]
+            },
+            {
+                title: "Miðhraun",
+                text: [
+                    <>
+                        For the next Bónus, we had to walk back towards IKEA in Garðabær. The Miðhraun Bónus is mainly designed for vehcile access and doesn't really have
+                        pedestrian access in mind, but it is doable, it's just a tricky walk! It took us a very long time to get to this one...
+                    </>,
+                    <>
+                        At this Bónus, I didn't buy a food item. Instead, I bought myself the retro Bónus hoodie, featuring the old Bónus logo from before it was changed in 2021.
+                        I had been looking out for this hoodie at some of the other Bónus stores, but had had no luck. But I managed to find it at this one!
+                    </>,
+                    <>
+                        On the way to the next Bónus, we walked north up through Garðabær's lava fields. These are rocky hills made of cooled lava from volcanic activity thousands
+                        of years ago. It is dangerous to walk over lava fields like these due to loose rocks, big drops and holes, but this one has a path leading right through it.
+                    </>
+                ],
+                images: [ ["miðhraun", "Bónus, Miðhraun"], ["miðhraun-s", ""], ["miðhraun-f", "Retro Bónus hoodie"], ["miðhraun-a1", "Garðabær lava fields"], ["miðhraun-a2", ""], ["miðhraun-a3", ""] ]
+            },
+            {
+                title: "Garðatorg",
+                text: [
+                    <>
+                        The final Bónus of day two was the Bónus shop in Garðatorg. Garðatorg has a nice plaza with some parking and a few other shops around. But of
+                        course Bónus was our priority.
+                    </>,
+                    <>
+                        At this last Bónus, I spotted some Bónus branded ice cream. It was simple vanilla ice cream with sprinkles, but it was very good! We walked home after
+                        this Bónus which took another 30 minutes or so, but the weather was cold enough to keep the ice cream in good condition! We also spotted a rainbow on
+                        the way back! It faded a bit before I managed to get a good picture, but you can still see it!
+                    </>
+                ],
+                images: [ ["garðatorg", "Bónus Garðatorg"], ["garðatorg-s", ""], ["garðatorg-f", "Bónus ice cream"], ["garðatorg-a1", "Rainbow!"] ]
+            }
+        ]
     }
 ]
 
