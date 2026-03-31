@@ -177,6 +177,82 @@ const phase1: Array<AdventureModuleProps> = [
                 images: [ ["garðatorg", "Bónus Garðatorg"], ["garðatorg-s", ""], ["garðatorg-f", "Bónus ice cream"], ["garðatorg-a1", "Rainbow!"] ]
             }
         ]
+    },
+    {
+        date: "30th March",
+        day: 3,
+        visits: [
+            {
+                title: "Kringlan",
+                text: [
+                    <>
+                        Today, we visited a few Bónus stores that had left a bit of a hole in the ones we already visited. We got driven into Reykjavík by Tómas's mum as Tómas
+                        and his family needed to go to the dentist. After that, we walked to Reykjavík's main shopping centre, Kringlan, which has a small Bónus on its
+                        second floor!
+                    </>,
+                    <>
+                        The shopping centre itself is very cool and quite large. Similarly to Smáralind in Kópavogur, a large portion of the shopping centre is made up of
+                        clothing shops which aren't really for me, but there are some other cool shops there too!
+                    </>,
+                    <>
+                        From Bónus in Kringlan, I bought some Súkkulaðikex: chocolate biscuits. I believe they are going to be a chocolate digestive-style biscuit, but I am
+                        waiting to open them when I am back in England.
+                    </>,
+                    <>
+                        On the way out of Bónus, we saw a Bónus lorry parked next to the shopping centre! This is the first one of these I have seen, so I had to take a picture!
+                    </>
+                ],
+                images: [ ["kringlan", "Bónus, Kringlan"], ["kringlan-s", ""], ["kringlan-f", "Súkkulaðikex"], ["kringlan-a1", "Kringlan shopping centre"], ["kringlan-a2", "Bónus lorry!"] ]
+            },
+            {
+                title: "Skeifan",
+                text: [
+                    <>
+                        Skeifan is an area in Reykjavík with a lot of busy main roads around it making it quite noisy. There are a ton of shops and places to eat around, including
+                        a Bónus store.
+                    </>,
+                    <>
+                        From this Bónus, I bought some Daim bits. Daim bars are my number one favourite chocolate bar, and here in Iceland there are a few more Daim products
+                        available other than just the bar. These Daim bar bits are small pieces of Daim coated in chocolate and are really yummy!
+                    </>,
+                    <>
+                        Not far from the Bónus store in Skeifan, there is a small shopping area with a couple of really cool shops. One is a Pokémon shop where Tómas bought this
+                        Umbreon plushie for me, my favourite Pokémon. Thank you Tómas ❤️! The other is a shop filled with merchandise from popular books, films, TV, games,
+                        and more; very similar to Forbidden Planet or HMV in England.
+                    </>
+                ],
+                images: [ ["skeifan", "Bónus, Skeifan"], ["skeifan-s", ""], ["skeifan-f", "Daim bites"], ["skeifan-bre", "Adorable Umbreon!"] ]
+            },
+            {
+                title: "Nýbýlavegur",
+                text: [
+                    <>
+                        From around Skeifan, we took the bus back to Kópavogur, this time stopping more towards the north of the city. We walked up from the stop, stopping to see
+                        some birds on the way.
+                    </>,
+                    <>
+                        I am now running out of things I want to buy! But I still have to make sure I get something from each Bónus. I have always been a fan of the weird Haribos
+                        you can get in Iceland, though none of them are actually Icelandic, they are all Danish and distributed across the nordic countries. This one, "Click Mix",
+                        is a mix of sour sweets and liquorice.
+                    </>,
+                    <>
+                        After leaving our final Bónus of the day, we walked further up the hill to go to the bus stop. On the hill is a very Icelandic church with crazy modern
+                        geometry: Kópavogskirkja. Unfortunately, I forgot to snap a picture of it, but if you are curious, google Kópavogskirkja!
+                    </>
+                ],
+                images: [ ["nybylavegur", "Bónus, Nýbýlavegur"], ["nybylavegur-s", ""], ["nybylavegur-f", "Danish Haribos"] ]
+            },
+            {
+                title: "Breaking open the Bónus",
+                text: [
+                    <>
+                        This evening I decided to break open the chocolate Bónus! Oh my gosh it has a lot of sweets inside! The sweets are mostly gummy (including some weird gummy)
+                        fingers. There are also some chocolate-coated raisins and toffees and a few chewy liquorice things.
+                    </>
+                ],
+                images: [ ["chocolate-bonus-broken", "R.I.P. Chocolate Bónus"] ]
+            }
+        ]
     }
 ]
 
@@ -189,7 +265,7 @@ function AdventureModule({ date, day, visits }: AdventureModuleProps) {
             {visits.map((v, i) => (
                 <div key={i}>
                     <div className="sub-sub-title">{v.title}</div>
-                    <div className={`text-image`}> {/*${v.left ? "reverse" : ""}`}>*/}
+                    <div className={`text-image`}>
 
                         <div className="text-content">
                             {v.text.map((t, i) => (
