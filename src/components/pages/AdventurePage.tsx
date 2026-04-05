@@ -253,6 +253,51 @@ const phase1: Array<AdventureModuleProps> = [
                 images: [ ["chocolate-bonus-broken", "R.I.P. Chocolate Bónus"] ]
             }
         ]
+    },
+    {
+        date: "1st April",
+        day: 4,
+        visits: [
+            {
+                title: "Smiðjuvellir, Akranes",
+                text: [
+                    <>
+                        This was my first Bónus outside of the capital region in Iceland. I went on a short trip with Tómas and his mum and sister to Akranes which is a city just
+                        north of Reykjavík. We drove past the mountains Esjan and Akrafjall. There is an underwater road tunnel that stretches six kilometers underneath Hvalfjördur
+                        (a fjord) that cuts the journey time to Akranes in half.
+                    </>,
+                    <>
+                        Our first stop in Akranes was of course Bónus, and it was really just like any other Bónus to be honest! From it, I bought some Hraun wafers, another great
+                        snack from the company Góa. These are for my dad as he really loves them!
+                    </>,
+                    <>
+                        Next, we walked down towards the coast and on the way we passed a bakery. I originally had my eye on some doughnuts (I love doughnuts) but Tómas and I both
+                        ended up buying a Vínarbrauð, which as far as I can tell is Icelandic, but the literal translation is "Viennese bread" and according to my research is
+                        categorised as a "Danish pastry". Still, I have never seen these particular pastries elsewhere and I can tell you they are sooooo good. This one is topped
+                        with sugar and icing, but some have nuts among other toppings too!
+                    </>,
+                    <>
+                        After eating, Tómas and I walked down to the beach at the edge of the city, and had a stroll along the black and gold sands. We then sat for a while in
+                        Akranesvöllur (Akranes stadium) - which to me looked slightly abandoned - before heading home.
+                    </>
+                ],
+                images: [ ["akranes", "Bónus, Smiðjuvellir, Akranes"], ["akranes-s", ""], ["akranes-f", "Hraun Wafers"], ["akranes-esjan", "Esjan"], ["akranes-akrafjall", "Akrafjall"], ["akranes-vinarbrauð", "Vínarbrauð"], ["akranes-statue", "Statue in the middle of Akranes"], ["akranes-beach", "Akranes Beach"], ["akranes-beach-s", ""], ["akranes-vollur", "Akranesvöllur"] ]
+            },
+            {
+                title: "Bjarkarholt",
+                text: [
+                    <>
+                        On the way back from Akranes, we made a stop in Mosfellsbær (actually my first time visiting) to go to the Bjarkarholt Bónus. Tómas and I needed something
+                        for dinner, so we stopped at Bónus to get something.
+                    </>,
+                    <>
+                        We spent a long time in this Bónus looking for ingredients! We had decided to make chicken nuggets, and we bought some herbs and spices to help flavour them.
+                        We did kinda have to stop by Krónan to get the missing ingredients though... Sorry, Bónus!
+                    </>
+                ],
+                images: [ ["bjarkarholt", "Bónus, Bjarkarholt"], ["bjarkarholt-s", ""], ["bjarkarholt-f", "Herbs and spices"], ["bjarkarholt-f2", "Our chicken nuggets!"] ]
+            }
+        ]
     }
 ]
 
