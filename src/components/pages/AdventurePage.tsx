@@ -298,6 +298,130 @@ const phase1: Array<AdventureModuleProps> = [
                 images: [ ["bjarkarholt", "Bónus, Bjarkarholt"], ["bjarkarholt-s", ""], ["bjarkarholt-f", "Herbs and spices"], ["bjarkarholt-f2", "Our chicken nuggets!"] ]
             }
         ]
+    },
+    {
+        date: "2nd April",
+        day: 5,
+        visits: [
+            {
+                title: "Larsenstræti, Selfoss",
+                text: [
+                    <>
+                        In preparation for an upcoming mini trip (keep reading below!), Tómas and I made our way to his parents' farmhouse in the Flóahreppur area on the south coast. On the way there,
+                        we stopped off in Selfoss for dinner, but most importantly for Bónus!
+                    </>,
+                    <>
+                        Around April Fools' Day, Bónus released a limited-edition product which I received word of via email the previous day. They were selling only 2000 cans of
+                        Icelandic air. Yes, literally air in a can and nothing else. Icelandic air is actually a novelty product sold in many souvenir shops across the country,
+                        but it was never of real interest to me until they put the adorable pink pig on the front of it! The cans sold out extremely quickly, though Tómas and I were
+                        lucky enough to be able to acquire some in the Bónus in Selfoss which is one of the most tourist-heavy Bónus stores. I have number 1702 and Tómas has both
+                        numbers 1701 and 1567. The back of the can also has some funny text worth reading!
+                    </>,
+                    <>
+                        That evening after dark, I was lucky enough to see the northern lights in the sky above the farmhouse. Despite having visited Iceland three times now, this was my
+                        first time seeing the northern lights properly in the sky! It was a bit cloudy out, but I would say the view was pretty great overall.
+                    </>
+                ],
+                images: [ ["selfoss", "Bónus, Larsenstræti, Selfoss"], ["selfoss-s", ""], ["selfoss-f", "Bónus loft (air)"], ["selfoss-f2", ""], ["selfoss-a3", "Snow on the way to Selfoss"], ["selfoss-a1", "View from the farmhouse"], ["selfoss-a2", "The northern lights!"] ]
+            }
+        ]
+    },
+    {
+        date: "3rd-4th April - Vestmannaeyjar",
+        day: 6,
+        visits: [
+            {
+                title: "Bónus, Vestmannaeyjabær",
+                text: [
+                    <>
+                        On the 3rd and 4th of April, Tómas and I took a mini trip to the Westman Islands, or Vestmannaeyjar in Icelandic, on the south coast of the country. The
+                        island has one Bónus to the north of the main island Heimaey's town Vestmannaeyjabær. This Bónus is pretty cool as it has puffins with the pig on the
+                        display out the front of the shop, as Vestmannaeyjar is known for having a large number of puffins (though sadly, not at this time of year; we were slightly
+                        too early).
+                    </>,
+                    <>
+                        We actually visited this Bónus a few times while we were there to grab some food and other supplies for our hotel (as the hotel was pretty cheap and didn't
+                        have soap!). The main thing I want to highlight is these Bónus crisps. Bónus actually has three different flavours of crisps: paprika (which are the best and
+                        the ones we bought), salt and pepper, and bacon (which I don't personally like, and also that's just wrong!).
+                    </>
+                ],
+                images: [ ["vestmannaeyjabaer", "Bónus, Vestmannaeyjabær"], ["vestmannaeyjabaer-s", ""], ["vestmannaeyjabaer-f", "Bónus crisps"] ]
+            },
+            {
+                title: "Vestmannaeyjar Day 1",
+                text: [
+                    <>
+                        There is only one ferry that goes to and from the Westman Islands, and two different routes that it can take: a quick 30-minute route from a port called
+                        Landeyjahöfn (which is literally just a port as close to the Westman Islands as you can get on the mainland) and a three-hour route from a town called
+                        Þorlákshöfn which is further west along the south coast. When we booked, only the longer three-hour route from Þorlákshöfn was running so we chose that. We
+                        were driven and dropped off at the port in Þorlákshöfn and set sail on our three-hour voyage, where we both learned that we suffer from seasickness! We both
+                        assumed we wouldn't, but neither of us had been on such a long voyage with such rough seas (the ferry was rocking a lot). Luckily, neither of us were actually
+                        sick (though it was very close for me), but it was a miserable journey!
+                    </>,
+                    <>
+                        After arriving safely at Vestmannaeyjar, we walked straight to Bónus to buy some food, even though neither of us were particularly hungry. We then had some
+                        time to kill before we could arrive at our hotel, so we went on a small walk around a short hiking route on the north west of the island. Even though there
+                        were no puffins, there were still a lot of birds around that we enjoyed finding. To Tómas's surprise, the island was full of pigeons! We also saw starlings
+                        and a redwing, fulmars and kittiwakes in the distance on the cliffs, and common eiders in the sea which looked so super cute!
+                    </>
+                ],
+                images: [ ["vest-ferry", "Boarding the ferry at Þorlákshöfn"], ["vest-ferry2", "Other boats at Þorlákshöfn"], ["vest-ferry3", "Vestmannaeyjar from the ferry"], ["vest-ferry4", ""], ["vest-puffinsign", "Cute puffin signs"], ["vest-bakerybench", "R.I.P. Magnúsarbakarí"], ["vest-d1hike1", "A view of the land from our first hike"], ["vest-d1hike2", "Distant cliffs"], ["vest-d1hike3", "Eiders"] ]
+            },
+            {
+                title: "",
+                text: [
+                    <>
+                        We booked a room in a guesthouse called the Westman Islands Inn. It was alright for the price, but the floor was not cleaned that well before we got there so
+                        maybe look for another place if you plan on staying. We did have a great view of Bónus out the window though!
+                    </>,
+                    <>
+                        After some time relaxing, we walked around the town of Vestmannaeyabær a bit. We saw some strange statues in the parks. We decided that we wanted to take a closer
+                        look at the island's main volcanoes: Eldfell and Helgafell. Even though Helgafell is bigger, Eldfell is the volcano responsible for the huge eruption on Heimaey in
+                        1973 that destroyed many homes and covered the whole town in meters of ash. And it just so happens to have a walking route!
+                    </>,
+                    <>
+                        Our walk up Eldfell was a little dangerous as we walked up a quicker route and not the main path. The sites were amazing though. When we were around the crater area
+                        on the inside of the volcano, we made the mistake of accidentally deviating off of the path and just up the side of the volcano as the way the snow had fallen
+                        made it look like a path. We then had to slowly backtrack down the edge of the volcano, but I did manage to get some awesome pictures.
+                    </>,
+                    <>
+                        To finish the day off, we had dinner at a pizza restaurant called Pizza 67. We couldn't help but make jokes about six-seven there, but the place was actually
+                        really good and I would 100% recommend a visit if you ever come to the Westman Islands.
+                    </>
+                ],
+                images: [ ["vest-hotelview", "Our hotel view of Bónus"], ["vest-puffinart", ""], ["vest-statue", "Funky statue"], ["vest-helgafell", "Helgafell volcano"], ["vest-eldfell", "Eldfell volcano"], ["vest-eldfell2", "A view of Mýrdalsjökull on the mainland"], ["vest-view", "Great view of Vestmannaeyjabær"], ["vest-view-s", ""], ["vest-eldfell3", "Climbing Eldfell..."], ["vest-eldfell4", "Eldfell's crater"], ["vest-eldfell5", "The scary downclimb"], ["vest-67", "Pizza 67"], ["vest-672", "My BBQ Pizza"] ]
+            },
+            {
+                title: "Vestmannaeyjar Day 2",
+                text: [
+                    <>
+                        On the second day, we started with a long hike around the north west area of the Heimaey islands, after visiting the pharmacy to get some seasickness medication!
+                        Around the cliffs we could hear the constant caws of fulmars and we
+                        could see them at the top of the cliffs. We also saw the ocean crashing around the cliffs, some kind of old house museum (that was closed) and a funky memorial.
+                    </>,
+                    <>
+                        After that and some Bónus lunch, we headed to Eldheimar, a museum on the Eldfell eruption in 1973. Inside it, they have a house that was buried by ash and rubble in
+                        its original position (the museum was built around it). There is an audio tour as you walk around the museum to teach you about the eruption and all its history. I would
+                        100% recommend a visit.
+                    </>,
+                    <>
+                        The museum also teaches you about Surtsey, Vestmannaeyjar's newest island which formed from an underwater volcanic eruption in 1963. The island is completely off-limits
+                        to any people as scientists are studying how plant life begins to grow on a newly formed island. Surtsey is predicted to erode down into just a small island in the next
+                        one hundred years or so. Surtsey is pictured on the right of the first image in the slideshow to the side.
+                    </>,
+                    <>
+                        After the museum, we made a quick stop to get some ice cream from Eydís Ísbúð which was packed full of so many toppings you couldn't see the ice cream underneath.
+                    </>,
+                    <>
+                        During our museum visit, we received a message from the ferry people that our ferry that afternoon had been redirected from Þorlákshöfn to Landeyjarhöfn instead. This
+                        was good and bad as it meant our journey by boat was going to be only 30 minutes instead of 3 hours (so no seasickness!) but we had to somehow get back home after landing
+                        at Landeyjarhöfn which is just a ferry port and nothing more. Luckily, Tómas's brother picked us up in the car and we made it safely home with some pretty mountain and
+                        glacier views on the drive back.
+                    </>
+                ],
+                images: [ ["vest-2view3", "Vestmannaeyjar's Islands"], ["vest-fulmar", "A fulmar over the cliffs"], ["vest-hut-museum", ""], ["vest-2view1", ""], ["vest-2view2", ""], ["vest-2view4", ""], ["vest-2statue", "Memorial"], ["vest-2view5", ""], ["vest-2view6", ""], ["vest-2view7", ""], ["vest-2view8", ""], ["vest-museum-house1", "The house in Eldheimar"], ["vest-museum-house2", ""], ["vest-museum-house3", ""], ["vest-museum-boards", ""], ["vest-is", "Ice cream at Eydís"], ["vest-home1", "Mountains on the drive back"], ["vest-home2", ""] ]
+            }
+        ]
     }
 ]
 
@@ -331,16 +455,18 @@ function AdventureModule({ date, day, visits }: AdventureModuleProps) {
                         >
                             {v.images.map((img, i) => (
                                 <SwiperSlide>
-                                    <div className="image-container">
-                                        <img
-                                            key={i}
-                                            src={`/adventures/day${day}/${img[0]}.jpg`}
-                                            onLoad={(e) => {
-                                                const el = e.currentTarget;
-                                                if (el.naturalHeight > el.naturalWidth) {
-                                                    el.classList.add("portrait");
-                                                }
-                                            }}/>
+                                    <div>
+                                        <a href={`/adventures/day${day}/${img[0]}.jpg`} target="_blank" rel="noopener noreferrer" className="image-container">
+                                            <img
+                                                key={i}
+                                                src={`/adventures/day${day}/${img[0]}.jpg`}
+                                                onLoad={(e) => {
+                                                    const el = e.currentTarget;
+                                                    if (el.naturalHeight > el.naturalWidth) {
+                                                        el.classList.add("portrait");
+                                                    }
+                                                }}/>
+                                            </a>
                                     </div>
                                     {img[1] !== "" && <div className="caption">{img[1]}</div>}
                                 </SwiperSlide>

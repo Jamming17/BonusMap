@@ -133,3 +133,15 @@
         height: 200px;
     }
 }
+
+.swiper-button-next {
+  padding: 100px 0px 130px 0px;
+  top: 60%;
+  transform: translateY(-40%);
+}
+
+.swiper-button-prev {
+  padding: 100px 0px 130px 0px;
+  top: 60%;
+  transform: translateY(-40%);
+}
