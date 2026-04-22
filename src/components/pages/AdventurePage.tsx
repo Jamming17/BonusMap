@@ -422,6 +422,86 @@ const phase1: Array<AdventureModuleProps> = [
                 images: [ ["vest-2view3", "Vestmannaeyjar's Islands"], ["vest-fulmar", "A fulmar over the cliffs"], ["vest-hut-museum", ""], ["vest-2view1", ""], ["vest-2view2", ""], ["vest-2view4", ""], ["vest-2statue", "Memorial"], ["vest-2view5", ""], ["vest-2view6", ""], ["vest-2view7", ""], ["vest-2view8", ""], ["vest-museum-house1", "The house in Eldheimar"], ["vest-museum-house2", ""], ["vest-museum-house3", ""], ["vest-museum-boards", ""], ["vest-is", "Ice cream at Eydís"], ["vest-home1", "Mountains on the drive back"], ["vest-home2", ""] ]
             }
         ]
+    },
+    {
+        date: "7th April",
+        day: 8,
+        visits: [
+            {
+                title: "Ögurhvarf",
+                text: [
+                    <>
+                        Unfortunately, this was the final day of phase 1 of the Bónus adventures, and my final day in Iceland for this trip. We managed to complete four more to end it off,
+                        leaving our total at 19 Bónus shops out of 33 in Iceland and 41 overall. We only missed four in the capital region overall which we will be sure to get next time!
+                    </>,
+                    <>
+                        The first Bónus of the day we got the bus to, in Ögurhvarf, Kópavogur. The store itself was pretty unremarkable but we saw an epic goose there that was a different
+                        colour from all the others! You might also notice I am wearing my hood in most of these photos as the weather was very rainy for the whole time we were out.
+                    </>,
+                    <>
+                        From this Bónus, I bought myself a drink (sugar free Appelsín this time!) and a Bónus shopping bag for my friend who has been to Iceland before and bought one, but
+                        he managed to lose it! The shopping bags are super affordable too at only 229 kr. which is about £1.40.
+                    </>
+                ],
+                images: [ ["ogurhvarf", "Bónus, Ögurhvarf"], ["ogurhvarf-s", ""], ["ogurhvarf-f", "Bónus shopping bag"], ["ogurhvarf-a1", "Goose!"] ]
+            },
+            {
+                title: "Norðlingabraut",
+                text: [
+                    <>
+                        The second Bónus of the day was in Norðlingabraut, a pretty out-of-the-way place on the edge of Reykjavík. This was a nightmare to walk to as the only route was a long
+                        walk along a horse path which was covered in slushy snow and mud. My shoes were really starting to lose their waterproofing by now and my feet got very wet and cold as
+                        the water seeped in!
+                    </>,
+                    <>
+                        It was all definitely worth it though as I bought a lot of gifts from this Bónus. I called my brother inside the store and bought him some crisps (which I unfortunately
+                        forgot to photograph), I bought my mum some Om Nom chocolate (an awesome company), and I bought a size 6 Easter egg for my family. Even though it was after Easter at this point, the Easter eggs
+                        were still at full price! How dare they! I wanted to get a size 11 egg for the larger Bónus figure, but all the shops we visited had run out.
+                    </>
+                ],
+                images: [ ["norðlingabraut", "Bónus, Norðlingabraut"], ["norðlingabraut-s", ""], ["norðlingabraut-f1", "Bónus size 6 Easter egg"], ["norðlingabraut-f2", "Om Nom Chocolate"] ]
+            },
+            {
+                title: "Hraunbær",
+                text: [
+                    <>
+                        Bónus number three of the day was in Hraunbær, Reykjavík. This one was even further to get to, but luckily we could stick to footpaths for the whole journey. I used this
+                        time to throw a lot of snowballs and make the most of the snow (that was really starting to melt) as it was my last day, and we definitely won't get snow here before I am
+                        next back in Iceland!
+                    </>,
+                    <>
+                        From this shop I bought just something small so that my bank account could take a break. Tómas and I both bought lollipops, I bought a grape one and a pomegranate and
+                        raspberry one and Tómas bought a blueberry one that made his mouth very blue. I have seen these lollipops in quite a few Bónus stores and they are big and tasty and I
+                        would definitely recommend.
+                    </>
+                ],
+                images: [ ["hraunbaer", "Bónus, Hraunbær"], ["hraunbaer-s", ""], ["hraunbaer-f", "Lollipops!"] ]
+            },
+            {
+                title: "Lóuhólar",
+                text: [
+                    <>
+                        Sadly, the final Bónus of the trip! This Bónus is located in the scary Breiðholt in Reykjavík. Whilst the Breiðholt used to be considered a ghetto (and Tómas's brother
+                        loves to tell stories of all the crime that happens there that is mostly just made up), it is really just as relaxed and peaceful as the rest of the city. It has a higher
+                        population of immigrants compared to other areas, but it's still very chill.
+                    </>,
+                    <>
+                        We did see some slight drama on the way to this, but it was between two male ducks fighting over a female on the river Elliðaár. We also had to traipse through a small forest
+                        leading up to the Bónus which was actually quite hard to get through as the path was really snowy and icy and it was all uphill. But we made it through and up to the Bónus.
+                    </>,
+                    <>
+                        This Bónus is located in a small shopping centre with several other international stores around. Also, this Bónus was the most busy one we visited throughout the whole visit. It was the only one where we've had to queue for the self-checkouts, and the queue was halfway down one
+                        of the aisles! From this one, I bought another excellent snack from Sanbó to come full circle for the trip. These are light fluffy marshmallows coated in chocolate and
+                        coconut and are super delicious.
+                    </>,
+                    <>
+                        From this Bónus, we met up with Tómas's sister and mum who drove us home to save us the treacherous journey back out of the "ghetto". We then had dinner at IKEA (which I talked
+                        about more on a previous day!) and Tómas bought me a huge IKEA giraffe as they are my favourite animal ❤️.
+                    </>
+                ],
+                images: [ ["louholar", "Bónus, Lóuhólar"], ["louholar-s", ""], ["louholar-f", "Sanbó chocolate and coconut treats"], ["JONAS", "Jonas, my new IKEA giraffe!"] ]
+            }
+        ]
     }
 ]
 
